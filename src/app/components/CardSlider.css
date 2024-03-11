@@ -1,0 +1,14 @@
+.space-between-slides .slick-slide > div {
+  margin: 0 10px; /* Ajusta el margen según necesites */
+}
+
+.card-wrapper {
+  padding: 0px; /* Añade padding si es necesario para dar espacio alrededor de cada tarjeta */
+  box-sizing: border-box;
+}
+
+/* Ajusta el tamaño de las tarjetas aquí. Puedes usar max-width para controlar su ancho máximo */
+.card-wrapper > div {
+  margin: 20px;
+  max-width: 300px; /* O el ancho que prefieras para tus tarjetas */
+}

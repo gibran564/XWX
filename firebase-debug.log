@@ -1,0 +1,19 @@
+[debug] [2024-03-06T15:17:14.423Z] ----------------------------------------------------------------------
+[debug] [2024-03-06T15:17:14.430Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gibra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-03-06T15:17:14.431Z] CLI Version:   13.4.0
+[debug] [2024-03-06T15:17:14.432Z] Platform:      win32
+[debug] [2024-03-06T15:17:14.432Z] Node Version:  v21.6.1
+[debug] [2024-03-06T15:17:14.432Z] Time:          Wed Mar 06 2024 09:17:14 GMT-0600 (hora estándar central)
+[debug] [2024-03-06T15:17:14.433Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-06T15:17:14.586Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-06T15:17:14.587Z] > authorizing via signed-in user (20041243@itdurango.edu.mx)
+[debug] [2024-03-06T15:17:14.587Z] [iam] checking project xweather-579a3 for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2024-03-06T15:17:14.590Z] > refreshing access token with scopes: []
+[debug] [2024-03-06T15:17:14.593Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-06T15:17:14.593Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-06T15:17:16.305Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-03-06T15:17:16.305Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-06T15:17:16.313Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/xweather-579a3:testIamPermissions [none]
+[debug] [2024-03-06T15:17:16.313Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/xweather-579a3:testIamPermissions x-goog-quota-user=projects/xweather-579a3
+[debug] [2024-03-06T15:17:16.313Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/xweather-579a3:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
